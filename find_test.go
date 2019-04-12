@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/centraldereservas/intervals"
+	"github.com/daniel-gil/intervals"
 )
 
 func initIntervalsForDemo001() intervals.Intervals {

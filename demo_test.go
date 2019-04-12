@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/centraldereservas/intervals"
+	"github.com/daniel-gil/intervals"
 )
 
 type demo struct {

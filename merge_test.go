@@ -3,7 +3,7 @@ package intervals_test
 import (
 	"testing"
 
-	"github.com/centraldereservas/intervals"
+	"github.com/daniel-gil/intervals"
 )
 
 func TestMerge(t *testing.T) {

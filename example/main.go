@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/centraldereservas/intervals"
+	"github.com/daniel-gil/intervals"
 )
 
 const (

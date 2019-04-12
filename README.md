@@ -1,11 +1,11 @@
-# intervals [![Build Status](https://travis-ci.org/centraldereservas/intervals.svg?branch=master)](https://travis-ci.org/centraldereservas/intervals) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GoDoc](https://godoc.org/github.com/centraldereservas/intervals?status.svg)](https://godoc.org/github.com/centraldereservas/intervals)
+# intervals [![Build Status](https://travis-ci.org/daniel-gil/intervals.svg?branch=master)](https://travis-ci.org/daniel-gil/intervals) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GoDoc](https://godoc.org/github.com/daniel-gil/intervals?status.svg)](https://godoc.org/github.com/daniel-gil/intervals)
 
 Provides a helper to work with integer intervals detecting gaps, merged and overlapped sections.
 
 ## Installation
 
 ```sh
-go get github.com/centraldereservas/intervals
+go get github.com/daniel-gil/intervals
 ```
 
 ## Motivation
@@ -161,5 +161,5 @@ The next image is another example where `lowInclusive` is `true` but `highInclus
 
 This project is under the [MIT License][mit].
 
-[mit]: https://github.com/centraldereservas/intervals/blob/master/LICENSE
-[doc]: https://godoc.org/github.com/centraldereservas/intervals
+[mit]: https://github.com/daniel-gil/intervals/blob/master/LICENSE
+[doc]: https://godoc.org/github.com/daniel-gil/intervals
