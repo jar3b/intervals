@@ -178,10 +178,7 @@ func (ip *intervalPlot) AlignPlots(plotItems []*Superplot, minLow, maxHigh int) 
 }
 
 func (ip *intervalPlot) CreatePlot(title string, xys plotter.XYs, plotType PlotType) (*Superplot, error) {
-	p, err := plot.New()
-	if err != nil {
-		return nil, fmt.Errorf("could not create plot: %v", err)
-	}
+	p := plot.New()
 
 	// Draw a grid behind the data
 	p.Add(plotter.NewGrid())
